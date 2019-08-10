@@ -1,0 +1,17 @@
+//
+//  {{ prefix }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+struct {{ module_info.name }}ModuleFactory: ModuleFactory {
+
+    func createModule() -> Module<{{ module_info.name }}ModuleInput> {
+        let view = make({{ module_info.name }}ViewController.self)
+        let moduleInput = view.output as! {{ module_info.name }}ModuleInput
+        return Module(moduleInput: moduleInput, view: view)
+    }
+    
+}

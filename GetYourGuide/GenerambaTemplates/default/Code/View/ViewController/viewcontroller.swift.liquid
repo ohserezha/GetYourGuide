@@ -1,0 +1,29 @@
+//
+//  {{ prefix }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import UIKit
+
+class {{ module_info.name }}ViewController: UIViewController {
+
+    // MARK: - Injected
+
+    var output: {{ module_info.name }}ViewOutput!
+
+    // MARK: - Lifecycle
+
+    override func viewDidLoad() {
+      super.viewDidLoad()
+    }
+
+}
+
+// MARK: - {{module_info.name}}ViewInput
+
+extension {{ module_info.name }}ViewController: {{module_info.name}}ViewInput {
+
+}

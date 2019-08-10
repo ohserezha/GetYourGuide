@@ -1,0 +1,26 @@
+### Headers settings
+company: Nickolay Sheika
+
+### Xcode project settings
+project_name: GetYourGuide
+xcodeproj_path: GetYourGuide.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: GetYourGuide
+
+# The file path for new modules
+project_file_path: GetYourGuide/Features
+
+# The Xcode group path to new modules
+project_group_path: GetYourGuide/Features
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Templates
+templates:
+- {name: default, local: 'GenerambaTemplates/default'}
+
+#- {name: remote_template_name, git: 'https://github.com/igrekde/remote_template'}
+#- {name: catalog_template_name}

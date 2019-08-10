@@ -1,0 +1,40 @@
+# Template information section
+name: "default"
+summary: "Viper module with use dependency injection frameworks, Swinject and SwinjectStoryboard"
+author: "Nickolay Sheika"
+version: "1.0.0"
+license: "MIT"
+
+# The declarations for code files
+
+code_files:
+# Assembly
+- {name: Assembly/Assembly.swift, path: Code/Assembly/assembly.swift.liquid}
+
+# ModuleFactory
+- {name: ModuleFactory/ModuleFactory.swift, path: Code/ModuleFactory/module_factory.swift.liquid}
+
+# Interactor layer
+- {name: Interactor/InteractorInput.swift, path: Code/Interactor/interactor_input.swift.liquid}
+- {name: Interactor/InteractorOutput.swift, path: Code/Interactor/interactor_output.swift.liquid}
+- {name: Interactor/Interactor.swift, path: Code/Interactor/interactor.swift.liquid}
+
+# Presenter layer
+- {name: Presenter/ModuleInput.swift, path: Code/Presenter/module_input.swift.liquid}
+- {name: Presenter/Presenter.swift, path: Code/Presenter/presenter.swift.liquid}
+
+# Router layer
+- {name: Router/RouterInput.swift, path: Code/Router/router_input.swift.liquid}
+- {name: Router/Router.swift, path: Code/Router/router.swift.liquid}
+
+# View layer
+- {name: View/ViewController/ViewInput.swift,  path: Code/View/ViewController/view_input.swift.liquid}
+- {name: View/ViewController/ViewOutput.swift, path: Code/View/ViewController/view_output.swift.liquid}
+- {name: View/ViewController/ViewController.swift, path: Code/View/ViewController/viewcontroller.swift.liquid}
+- {name: View/ViewController.storyboard, path: Code/View/Storyboard.plist}
+
+
+# Template dependencies
+dependencies:
+- Swinject
+- SwinjectStoryboard
