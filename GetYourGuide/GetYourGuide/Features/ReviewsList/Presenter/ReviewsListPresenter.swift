@@ -28,6 +28,7 @@ extension ReviewsListPresenter: ReviewsListModuleInput {
 
 extension ReviewsListPresenter: ReviewsListViewOutput {
     func onViewDidLoad() {
+        view?.updateWith(state: .loading)
         interactor.startLoadingFirstPageData()
     }
 
@@ -43,6 +44,7 @@ extension ReviewsListPresenter: ReviewsListInteractorOutput {
     func didSuccessfullyFinishLoadingFirstPage(_ object: PaginatedDataLoadable) {
         let viewModels = viewModelsBuilder.buildFrom(models: interactor.allReviews)
         view?.updateWith(reviews: viewModels)
+        view?.updateWith(state: viewModels.count > 0 ? .showContent : .noContent)
 
         if !object.isLastPage {
             view?.startPaginationObserving()
@@ -56,6 +58,7 @@ extension ReviewsListPresenter: ReviewsListInteractorOutput {
     }
 
     func didFailLoadingFirstPage(_ object: PaginatedDataLoadable, with error: APIError) {
+        view?.updateWith(state: .noContent)
         view?.presentAlert(.errorWithRetry(message: error.description, okAction: nil, retryAction: {
             self.interactor.startLoadingFirstPageData()
         }))

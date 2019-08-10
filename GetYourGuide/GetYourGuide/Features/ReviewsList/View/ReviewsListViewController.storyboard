@@ -18,6 +18,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Content" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oed-gf-f3X">
+                                <rect key="frame" x="133" y="430" width="148" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="YpC-zD-bn1">
+                                <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                                <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </activityIndicatorView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="O1F-Fp-7CL">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -115,13 +125,19 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="7wz-1u-gjh" firstAttribute="bottom" secondItem="O1F-Fp-7CL" secondAttribute="bottom" id="93G-uR-cfX"/>
+                            <constraint firstItem="YpC-zD-bn1" firstAttribute="centerX" secondItem="ohY-pB-OdK" secondAttribute="centerX" id="E3l-kn-7Zp"/>
                             <constraint firstItem="O1F-Fp-7CL" firstAttribute="top" secondItem="7wz-1u-gjh" secondAttribute="top" id="N8T-Qu-6iV"/>
                             <constraint firstItem="7wz-1u-gjh" firstAttribute="trailing" secondItem="O1F-Fp-7CL" secondAttribute="trailing" id="T4u-xI-BBK"/>
+                            <constraint firstItem="Oed-gf-f3X" firstAttribute="centerX" secondItem="ohY-pB-OdK" secondAttribute="centerX" id="Z6z-CB-pRB"/>
                             <constraint firstItem="O1F-Fp-7CL" firstAttribute="leading" secondItem="7wz-1u-gjh" secondAttribute="leading" id="kRz-BD-DKb"/>
+                            <constraint firstItem="YpC-zD-bn1" firstAttribute="centerY" secondItem="ohY-pB-OdK" secondAttribute="centerY" id="sHc-pH-JCw"/>
+                            <constraint firstItem="Oed-gf-f3X" firstAttribute="centerY" secondItem="ohY-pB-OdK" secondAttribute="centerY" id="sjn-oP-zSz"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7wz-1u-gjh"/>
                     </view>
                     <connections>
+                        <outlet property="activityIndicator" destination="YpC-zD-bn1" id="WD9-ol-LkW"/>
+                        <outlet property="noContentLabel" destination="Oed-gf-f3X" id="qf3-51-UBq"/>
                         <outlet property="tableView" destination="O1F-Fp-7CL" id="eAQ-1T-cts"/>
                     </connections>
                 </viewController>
