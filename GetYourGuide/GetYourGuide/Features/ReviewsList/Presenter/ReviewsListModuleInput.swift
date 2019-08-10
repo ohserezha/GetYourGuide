@@ -7,5 +7,5 @@
 //
 
 protocol ReviewsListModuleInput: class {
-
+    func setupWith(tour: TourModel)
 }

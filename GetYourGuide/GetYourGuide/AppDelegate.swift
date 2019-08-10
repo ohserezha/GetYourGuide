@@ -21,10 +21,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let factory = resolver.resolve(ReviewsListModuleFactory.self)!
         let module = factory.createModule()
 
+        module.moduleInput.setupWith(tour: tourModel())
+
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = module.view
         window?.makeKeyAndVisible()
 
         return true
+    }
+}
+
+extension AppDelegate {
+    func tourModel() -> TourModel {
+        let city = CityModel(remoteID: "berlin-l17")
+        return TourModel(remoteID: "tempelhof-2-hour-airport-history-tour-berlin-airlift-more-t23776", city: city)
     }
 }

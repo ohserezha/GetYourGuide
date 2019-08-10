@@ -17,7 +17,9 @@ class ReviewsListViewController: UIViewController {
     // MARK: - Lifecycle
 
     override func viewDidLoad() {
-      super.viewDidLoad()
+        super.viewDidLoad()
+
+        output.onViewDidLoad()
     }
 
 }

@@ -14,6 +14,9 @@
 		62B3661EFA54A57C73D55D91 /* ReviewsListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C466D51E57D046582D62F3C /* ReviewsListInteractor.swift */; };
 		6FCE499BDB259C67EC837708 /* ReviewsListRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1711FCFA2C86990CD38AA2 /* ReviewsListRouterInput.swift */; };
 		714219FC22FEC41600449430 /* SwinjectStoryboard+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714219FA22FEC41600449430 /* SwinjectStoryboard+Convenience.swift */; };
+		71421A4B22FEE2CB00449430 /* ReviewsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71421A0322FEE2CA00449430 /* ReviewsRequest.swift */; };
+		71421A5222FEE2CB00449430 /* NetworkRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71421A0B22FEE2CA00449430 /* NetworkRequestConvertible.swift */; };
+		71421A5F22FEE2CB00449430 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71421A1A22FEE2CA00449430 /* APIError.swift */; };
 		714EBB8222FDD4A400A21E38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714EBB8122FDD4A400A21E38 /* AppDelegate.swift */; };
 		714EBB8922FDD4A500A21E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 714EBB8822FDD4A500A21E38 /* Assets.xcassets */; };
 		714EBB8C22FDD4A600A21E38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 714EBB8A22FDD4A600A21E38 /* LaunchScreen.storyboard */; };
@@ -24,8 +27,18 @@
 		A2D08F15C0D770ED4A46EC63 /* ReviewsListInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706419F775EB55F2667B2769 /* ReviewsListInteractorInput.swift */; };
 		A498FD77ED31F7CB44B4212A /* Pods_GetYourGuide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89683214AB77647492B970B0 /* Pods_GetYourGuide.framework */; };
 		A73B7ADFA708AE6DB2315335 /* ReviewsListViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7984D5B157206740D16B97 /* ReviewsListViewInput.swift */; };
+		B65530B0044AD1B156075BC4 /* NetworkingAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B655336EAADD42CD3D175019 /* NetworkingAssembly.swift */; };
+		B6553155DA2194DBE56F9420 /* TourModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65531340A28337B48BEF57F /* TourModel.swift */; };
+		B6553357F99A6064D9CA555A /* JSONDecoderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6553ED48765A98C035AB6B4 /* JSONDecoderType.swift */; };
+		B65533D39F485EB591679965 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6553BFFE9E423D993DA400A /* NetworkClient.swift */; };
+		B65535115E2FE69F1EF7348F /* GYGNetworkRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B655356F57F4606B5A030514 /* GYGNetworkRequestConvertible.swift */; };
+		B655356A9F52E05E989B14AD /* ReviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B655325FD3C0813FEC79108B /* ReviewModel.swift */; };
+		B655384B590AFFF64147736C /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6553FBD54B119408D73C690 /* CityModel.swift */; };
+		B655387B5B5493D0071DD004 /* ReviewsListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B655305118F7ECF6418DD197 /* ReviewsListModel.swift */; };
+		B65539267F24B8CAB2693A4D /* ReviewsListBackendService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6553B32085E9F6BDA1CA8A1 /* ReviewsListBackendService.swift */; };
 		B6553C34E9770908C6389037 /* ModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6553624D6CDD9033F036AD2 /* ModuleFactory.swift */; };
 		B6553C6EE8D2B7C043B9DCAD /* AppAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65532E4A894A2846678B544 /* AppAssembler.swift */; };
+		B6553DD817823CDBBB24BA7A /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6553CBE5DEED0BD68E95B2D /* NetworkRequest.swift */; };
 		EC316A504953DF7F2AAC3F77 /* ReviewsListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E1DAC4FC79F92DE00EC80A /* ReviewsListRouter.swift */; };
 		F7E8671A2331AEEF8725CE18 /* ReviewsListViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6E7EC7C5D9BE253F4A2DB3 /* ReviewsListViewOutput.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +66,9 @@
 		5F4EB1FB9BC46155A298EB73 /* ReviewsListModuleFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReviewsListModuleFactory.swift; sourceTree = "<group>"; };
 		706419F775EB55F2667B2769 /* ReviewsListInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReviewsListInteractorInput.swift; sourceTree = "<group>"; };
 		714219FA22FEC41600449430 /* SwinjectStoryboard+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwinjectStoryboard+Convenience.swift"; sourceTree = "<group>"; };
+		71421A0322FEE2CA00449430 /* ReviewsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsRequest.swift; sourceTree = "<group>"; };
+		71421A0B22FEE2CA00449430 /* NetworkRequestConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequestConvertible.swift; sourceTree = "<group>"; };
+		71421A1A22FEE2CA00449430 /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		714EBB7E22FDD4A400A21E38 /* GetYourGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetYourGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		714EBB8122FDD4A400A21E38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		714EBB8822FDD4A500A21E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -64,8 +80,18 @@
 		73E2C103C27F418D3BF9BD46 /* ReviewsListViewController.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = ReviewsListViewController.storyboard; sourceTree = "<group>"; };
 		89683214AB77647492B970B0 /* Pods_GetYourGuide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetYourGuide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E1DAC4FC79F92DE00EC80A /* ReviewsListRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReviewsListRouter.swift; sourceTree = "<group>"; };
+		B655305118F7ECF6418DD197 /* ReviewsListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsListModel.swift; sourceTree = "<group>"; };
+		B65531340A28337B48BEF57F /* TourModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourModel.swift; sourceTree = "<group>"; };
+		B655325FD3C0813FEC79108B /* ReviewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewModel.swift; sourceTree = "<group>"; };
 		B65532E4A894A2846678B544 /* AppAssembler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppAssembler.swift; sourceTree = "<group>"; };
+		B655336EAADD42CD3D175019 /* NetworkingAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingAssembly.swift; sourceTree = "<group>"; };
+		B655356F57F4606B5A030514 /* GYGNetworkRequestConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYGNetworkRequestConvertible.swift; sourceTree = "<group>"; };
 		B6553624D6CDD9033F036AD2 /* ModuleFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleFactory.swift; sourceTree = "<group>"; };
+		B6553B32085E9F6BDA1CA8A1 /* ReviewsListBackendService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsListBackendService.swift; sourceTree = "<group>"; };
+		B6553BFFE9E423D993DA400A /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		B6553CBE5DEED0BD68E95B2D /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		B6553ED48765A98C035AB6B4 /* JSONDecoderType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecoderType.swift; sourceTree = "<group>"; };
+		B6553FBD54B119408D73C690 /* CityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
 		D630C3B005F961DE3CF98856 /* ReviewsListInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReviewsListInteractorOutput.swift; sourceTree = "<group>"; };
 		DF6E7EC7C5D9BE253F4A2DB3 /* ReviewsListViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReviewsListViewOutput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,9 +153,12 @@
 		714219F022FEB66200449430 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				714219FD22FEDDC400449430 /* Networking */,
 				714219F222FEB79F00449430 /* Factories */,
 				714219F122FEB66E00449430 /* Extensions */,
 				B65534414D83A1CF7F212AE7 /* DI */,
+				B6553BA4B56459FC0F7EF568 /* Definitions */,
+				B6553269943AE9FCE6DFD8F2 /* Model */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -156,6 +185,52 @@
 				714219FA22FEC41600449430 /* SwinjectStoryboard+Convenience.swift */,
 			);
 			path = Swinject;
+			sourceTree = "<group>";
+		};
+		714219FD22FEDDC400449430 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				71421A1922FEE2CA00449430 /* Errors */,
+				71421A1222FEE2CA00449430 /* Models */,
+				71421A0222FEE2CA00449430 /* Requests */,
+				B6553BD31A07F0C222F992C6 /* Services */,
+				B655336AE9071C542DAC9E7E /* NetworkClient */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		71421A0222FEE2CA00449430 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				71421A0322FEE2CA00449430 /* ReviewsRequest.swift */,
+				71421A0A22FEE2CA00449430 /* Base */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		71421A0A22FEE2CA00449430 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				71421A0B22FEE2CA00449430 /* NetworkRequestConvertible.swift */,
+				B655356F57F4606B5A030514 /* GYGNetworkRequestConvertible.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		71421A1222FEE2CA00449430 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B6553CBE5DEED0BD68E95B2D /* NetworkRequest.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		71421A1922FEE2CA00449430 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				71421A1A22FEE2CA00449430 /* APIError.swift */,
+			);
+			path = Errors;
 			sourceTree = "<group>";
 		};
 		714EBB7522FDD4A400A21E38 = {
@@ -256,12 +331,56 @@
 			path = Interactor;
 			sourceTree = "<group>";
 		};
+		B655314A0C6F9134DD7D0004 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B655336EAADD42CD3D175019 /* NetworkingAssembly.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B6553269943AE9FCE6DFD8F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6553FBD54B119408D73C690 /* CityModel.swift */,
+				B655325FD3C0813FEC79108B /* ReviewModel.swift */,
+				B655305118F7ECF6418DD197 /* ReviewsListModel.swift */,
+				B65531340A28337B48BEF57F /* TourModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B655336AE9071C542DAC9E7E /* NetworkClient */ = {
+			isa = PBXGroup;
+			children = (
+				B6553BFFE9E423D993DA400A /* NetworkClient.swift */,
+			);
+			path = NetworkClient;
+			sourceTree = "<group>";
+		};
 		B65534414D83A1CF7F212AE7 /* DI */ = {
 			isa = PBXGroup;
 			children = (
 				B65532E4A894A2846678B544 /* AppAssembler.swift */,
+				B655314A0C6F9134DD7D0004 /* Services */,
 			);
 			path = DI;
+			sourceTree = "<group>";
+		};
+		B6553BA4B56459FC0F7EF568 /* Definitions */ = {
+			isa = PBXGroup;
+			children = (
+				B6553ED48765A98C035AB6B4 /* JSONDecoderType.swift */,
+			);
+			path = Definitions;
+			sourceTree = "<group>";
+		};
+		B6553BD31A07F0C222F992C6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B6553B32085E9F6BDA1CA8A1 /* ReviewsListBackendService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		BA14A6E51723055E1593FFCB /* Frameworks */ = {
@@ -338,7 +457,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = "Involvio LLC";
+				ORGANIZATIONNAME = "Nickolay Sheika";
 				TargetAttributes = {
 					714EBB7D22FDD4A400A21E38 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -446,8 +565,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71421A5222FEE2CB00449430 /* NetworkRequestConvertible.swift in Sources */,
 				714EBB8222FDD4A400A21E38 /* AppDelegate.swift in Sources */,
 				714219FC22FEC41600449430 /* SwinjectStoryboard+Convenience.swift in Sources */,
+				71421A4B22FEE2CB00449430 /* ReviewsRequest.swift in Sources */,
 				B6553C6EE8D2B7C043B9DCAD /* AppAssembler.swift in Sources */,
 				B6553C34E9770908C6389037 /* ModuleFactory.swift in Sources */,
 				5142708758BD3EC123D71118 /* ReviewsListAssembly.swift in Sources */,
@@ -462,6 +583,17 @@
 				A73B7ADFA708AE6DB2315335 /* ReviewsListViewInput.swift in Sources */,
 				F7E8671A2331AEEF8725CE18 /* ReviewsListViewOutput.swift in Sources */,
 				05FD3F29635C21052857E575 /* ReviewsListViewController.swift in Sources */,
+				71421A5F22FEE2CB00449430 /* APIError.swift in Sources */,
+				B6553DD817823CDBBB24BA7A /* NetworkRequest.swift in Sources */,
+				B65535115E2FE69F1EF7348F /* GYGNetworkRequestConvertible.swift in Sources */,
+				B65530B0044AD1B156075BC4 /* NetworkingAssembly.swift in Sources */,
+				B65539267F24B8CAB2693A4D /* ReviewsListBackendService.swift in Sources */,
+				B65533D39F485EB591679965 /* NetworkClient.swift in Sources */,
+				B6553357F99A6064D9CA555A /* JSONDecoderType.swift in Sources */,
+				B655384B590AFFF64147736C /* CityModel.swift in Sources */,
+				B655356A9F52E05E989B14AD /* ReviewModel.swift in Sources */,
+				B655387B5B5493D0071DD004 /* ReviewsListModel.swift in Sources */,
+				B6553155DA2194DBE56F9420 /* TourModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

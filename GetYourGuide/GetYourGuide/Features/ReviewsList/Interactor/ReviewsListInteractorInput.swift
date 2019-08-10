@@ -9,5 +9,7 @@
 import Foundation
 
 protocol ReviewsListInteractorInput: class {
+    var tour: TourModel! { get set }
 
+    func reloadData()
 }

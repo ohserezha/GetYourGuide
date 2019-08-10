@@ -13,19 +13,22 @@ class ReviewsListPresenter {
     weak var view: ReviewsListViewInput?
     var interactor: ReviewsListInteractorInput!
     var router: ReviewsListRouterInput!
-
 }
 
 // MARK: - ReviewsListModuleInput
 
 extension ReviewsListPresenter: ReviewsListModuleInput {
-
+    func setupWith(tour: TourModel) {
+        interactor.tour = tour
+    }
 }
 
 // MARK: - ReviewsListViewOutput
 
 extension ReviewsListPresenter: ReviewsListViewOutput {
-
+    func onViewDidLoad() {
+        interactor.reloadData()
+    }
 }
 
 // MARK: - ReviewsListInteractorOutput

@@ -25,6 +25,7 @@ extension ReviewsListAssembly: Assembly {
       container.register(ReviewsListInteractor.self) { (r, presenter: ReviewsListPresenter) in
         let interactor = ReviewsListInteractor()
         interactor.output = presenter
+        interactor.backendService = r.resolve(ReviewsListBackendService.self)
         return interactor
       }
 

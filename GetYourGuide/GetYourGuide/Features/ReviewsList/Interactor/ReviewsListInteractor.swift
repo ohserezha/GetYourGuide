@@ -11,11 +11,22 @@ class ReviewsListInteractor {
     // MARK: - Injected
 
     weak var output: ReviewsListInteractorOutput?
+    var backendService: ReviewsListBackendService!
 
+    var tour: TourModel!
 }
 
 // MARK: - ReviewsListInteractorInput
 
 extension ReviewsListInteractor: ReviewsListInteractorInput {
-
+    func reloadData() {
+        backendService.loadReviewsListFor(tour: tour, page: 0) { result in
+            switch (result) {
+                case .success(let list):
+                    print(list)
+                case .failure(let error):
+                    print(error)
+            }
+        }
+    }
 }
