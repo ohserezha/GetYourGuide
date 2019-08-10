@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol ReviewsListInteractorOutput: class {
+protocol ReviewsListInteractorOutput: PaginatedDataLoadableDelegate {
 
 }

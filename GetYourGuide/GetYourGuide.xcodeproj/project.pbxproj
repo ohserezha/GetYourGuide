@@ -27,18 +27,42 @@
 		A2D08F15C0D770ED4A46EC63 /* ReviewsListInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706419F775EB55F2667B2769 /* ReviewsListInteractorInput.swift */; };
 		A498FD77ED31F7CB44B4212A /* Pods_GetYourGuide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89683214AB77647492B970B0 /* Pods_GetYourGuide.framework */; };
 		A73B7ADFA708AE6DB2315335 /* ReviewsListViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7984D5B157206740D16B97 /* ReviewsListViewInput.swift */; };
+		B6553069188228944CF3ED79 /* ReviewListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B655357AA7ED7598F722140C /* ReviewListTableViewCell.swift */; };
 		B65530B0044AD1B156075BC4 /* NetworkingAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B655336EAADD42CD3D175019 /* NetworkingAssembly.swift */; };
+		B65530FECB63DFD5BB5F8F49 /* UIView+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6553B39E03DEA65A97BF6E9 /* UIView+Convenience.swift */; };
+		B65531514882700FB02B93E2 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B655335E448CD9A8E09F8268 /* Observer.swift */; };
 		B6553155DA2194DBE56F9420 /* TourModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65531340A28337B48BEF57F /* TourModel.swift */; };
+		B655321825B2504B122876E8 /* PaginationThresholdProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B655310AFD672CAE632B3FDF /* PaginationThresholdProvider.swift */; };
+		B6553304EE961121CFB44786 /* PaginationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65539A1F36CF34A1131A194 /* PaginationController.swift */; };
+		B6553328D9BB6B63138AF43C /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B655380CF5E83CEBD3321CBE /* Alert.swift */; };
 		B6553357F99A6064D9CA555A /* JSONDecoderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6553ED48765A98C035AB6B4 /* JSONDecoderType.swift */; };
+		B65533C2024E1A40F58A27D4 /* ArrayTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65533070B19A7BBD5B7AE05 /* ArrayTableViewDataSource.swift */; };
 		B65533D39F485EB591679965 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6553BFFE9E423D993DA400A /* NetworkClient.swift */; };
+		B65534525B8D13E362B9BE68 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6553BD552184B83F1625B3E /* ReusableView.swift */; };
+		B65534657E0B7766FC42DFDD /* UIAlertController+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = B655376DAF29747C2973D3DF /* UIAlertController+Convenience.swift */; };
 		B65535115E2FE69F1EF7348F /* GYGNetworkRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B655356F57F4606B5A030514 /* GYGNetworkRequestConvertible.swift */; };
 		B655356A9F52E05E989B14AD /* ReviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B655325FD3C0813FEC79108B /* ReviewModel.swift */; };
+		B655357BDB28AE4524291114 /* UIImageView+ImageURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6553EEE417867C063A8CC8E /* UIImageView+ImageURL.swift */; };
+		B65535C77504B57D93C0C780 /* PaginatedDataLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65532C286558A6DFE101D9D /* PaginatedDataLoadable.swift */; };
+		B6553698D8A690A77DF72F61 /* PaginationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6553234A32496EDF8D63E6D /* PaginationObserver.swift */; };
+		B65536A22D3BC10CD35DEE4E /* ReviewsListViewModelsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6553637A4CE9C679D4BBACF /* ReviewsListViewModelsBuilder.swift */; };
+		B6553788DE2FFC9CA66B3A6D /* CommonServicesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6553AC82B524EFA7A3AB7D4 /* CommonServicesAssembly.swift */; };
+		B655383EA415C831CD66CE68 /* PaginationFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6553E51B350D3C4458EBB58 /* PaginationFacade.swift */; };
 		B655384B590AFFF64147736C /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6553FBD54B119408D73C690 /* CityModel.swift */; };
 		B655387B5B5493D0071DD004 /* ReviewsListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B655305118F7ECF6418DD197 /* ReviewsListModel.swift */; };
+		B65538ABB08440998CAD959D /* PaginationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6553C3A680AE95B12B655F3 /* PaginationState.swift */; };
+		B65538B3DE733A48FE8929C7 /* UIAlertAction+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6553894E73ED23F1C4E2C78 /* UIAlertAction+Convenience.swift */; };
 		B65539267F24B8CAB2693A4D /* ReviewsListBackendService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6553B32085E9F6BDA1CA8A1 /* ReviewsListBackendService.swift */; };
+		B6553999AC93F8D98C167918 /* ReviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6553D44CAFBF9A8A4239A8E /* ReviewViewModel.swift */; };
+		B65539CD04D452C1E7DD69B5 /* PresentableAsAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6553BC1A7E2E85B8B5CD8B7 /* PresentableAsAlert.swift */; };
+		B6553B178F008D40185708A4 /* ModelTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65536D9A91486CD586D813C /* ModelTransfer.swift */; };
 		B6553C34E9770908C6389037 /* ModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6553624D6CDD9033F036AD2 /* ModuleFactory.swift */; };
 		B6553C6EE8D2B7C043B9DCAD /* AppAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65532E4A894A2846678B544 /* AppAssembler.swift */; };
+		B6553D61C57E6F908ABD785E /* PaginatedDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6553914A30347EA0D0084C6 /* PaginatedDataController.swift */; };
+		B6553D82C2A7B6E6A7AD3CC1 /* CanPresentAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65536A8E1561D6362905B00 /* CanPresentAlert.swift */; };
+		B6553DAB04FA5E4272ECCAC3 /* PaginationDefaultThresholdProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B655320874611296CB04F21A /* PaginationDefaultThresholdProvider.swift */; };
 		B6553DD817823CDBBB24BA7A /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6553CBE5DEED0BD68E95B2D /* NetworkRequest.swift */; };
+		B6553F201A4A8875430DF133 /* TableViewPaginationIndicatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B655375215BA05479DE4332D /* TableViewPaginationIndicatorPresenter.swift */; };
 		EC316A504953DF7F2AAC3F77 /* ReviewsListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E1DAC4FC79F92DE00EC80A /* ReviewsListRouter.swift */; };
 		F7E8671A2331AEEF8725CE18 /* ReviewsListViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6E7EC7C5D9BE253F4A2DB3 /* ReviewsListViewOutput.swift */; };
 /* End PBXBuildFile section */
@@ -81,16 +105,40 @@
 		89683214AB77647492B970B0 /* Pods_GetYourGuide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetYourGuide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E1DAC4FC79F92DE00EC80A /* ReviewsListRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReviewsListRouter.swift; sourceTree = "<group>"; };
 		B655305118F7ECF6418DD197 /* ReviewsListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsListModel.swift; sourceTree = "<group>"; };
+		B655310AFD672CAE632B3FDF /* PaginationThresholdProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginationThresholdProvider.swift; sourceTree = "<group>"; };
 		B65531340A28337B48BEF57F /* TourModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourModel.swift; sourceTree = "<group>"; };
+		B655320874611296CB04F21A /* PaginationDefaultThresholdProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginationDefaultThresholdProvider.swift; sourceTree = "<group>"; };
+		B6553234A32496EDF8D63E6D /* PaginationObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginationObserver.swift; sourceTree = "<group>"; };
 		B655325FD3C0813FEC79108B /* ReviewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewModel.swift; sourceTree = "<group>"; };
+		B65532C286558A6DFE101D9D /* PaginatedDataLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginatedDataLoadable.swift; sourceTree = "<group>"; };
 		B65532E4A894A2846678B544 /* AppAssembler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppAssembler.swift; sourceTree = "<group>"; };
+		B65533070B19A7BBD5B7AE05 /* ArrayTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayTableViewDataSource.swift; sourceTree = "<group>"; };
+		B655335E448CD9A8E09F8268 /* Observer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		B655336EAADD42CD3D175019 /* NetworkingAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingAssembly.swift; sourceTree = "<group>"; };
 		B655356F57F4606B5A030514 /* GYGNetworkRequestConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYGNetworkRequestConvertible.swift; sourceTree = "<group>"; };
+		B655357AA7ED7598F722140C /* ReviewListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewListTableViewCell.swift; sourceTree = "<group>"; };
 		B6553624D6CDD9033F036AD2 /* ModuleFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleFactory.swift; sourceTree = "<group>"; };
+		B6553637A4CE9C679D4BBACF /* ReviewsListViewModelsBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsListViewModelsBuilder.swift; sourceTree = "<group>"; };
+		B65536A8E1561D6362905B00 /* CanPresentAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanPresentAlert.swift; sourceTree = "<group>"; };
+		B65536D9A91486CD586D813C /* ModelTransfer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelTransfer.swift; sourceTree = "<group>"; };
+		B655375215BA05479DE4332D /* TableViewPaginationIndicatorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewPaginationIndicatorPresenter.swift; sourceTree = "<group>"; };
+		B655376DAF29747C2973D3DF /* UIAlertController+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Convenience.swift"; sourceTree = "<group>"; };
+		B655380CF5E83CEBD3321CBE /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		B6553894E73ED23F1C4E2C78 /* UIAlertAction+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertAction+Convenience.swift"; sourceTree = "<group>"; };
+		B6553914A30347EA0D0084C6 /* PaginatedDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginatedDataController.swift; sourceTree = "<group>"; };
+		B65539A1F36CF34A1131A194 /* PaginationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginationController.swift; sourceTree = "<group>"; };
+		B6553AC82B524EFA7A3AB7D4 /* CommonServicesAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonServicesAssembly.swift; sourceTree = "<group>"; };
 		B6553B32085E9F6BDA1CA8A1 /* ReviewsListBackendService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsListBackendService.swift; sourceTree = "<group>"; };
+		B6553B39E03DEA65A97BF6E9 /* UIView+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Convenience.swift"; sourceTree = "<group>"; };
+		B6553BC1A7E2E85B8B5CD8B7 /* PresentableAsAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentableAsAlert.swift; sourceTree = "<group>"; };
+		B6553BD552184B83F1625B3E /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		B6553BFFE9E423D993DA400A /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		B6553C3A680AE95B12B655F3 /* PaginationState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginationState.swift; sourceTree = "<group>"; };
 		B6553CBE5DEED0BD68E95B2D /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		B6553D44CAFBF9A8A4239A8E /* ReviewViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewModel.swift; sourceTree = "<group>"; };
+		B6553E51B350D3C4458EBB58 /* PaginationFacade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginationFacade.swift; sourceTree = "<group>"; };
 		B6553ED48765A98C035AB6B4 /* JSONDecoderType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDecoderType.swift; sourceTree = "<group>"; };
+		B6553EEE417867C063A8CC8E /* UIImageView+ImageURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+ImageURL.swift"; sourceTree = "<group>"; };
 		B6553FBD54B119408D73C690 /* CityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
 		D630C3B005F961DE3CF98856 /* ReviewsListInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReviewsListInteractorOutput.swift; sourceTree = "<group>"; };
 		DF6E7EC7C5D9BE253F4A2DB3 /* ReviewsListViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReviewsListViewOutput.swift; sourceTree = "<group>"; };
@@ -120,6 +168,7 @@
 			children = (
 				FCF9338404815405E5633780 /* ViewController */,
 				73E2C103C27F418D3BF9BD46 /* ReviewsListViewController.storyboard */,
+				B6553A57874B0714741652AB /* TableViewCells */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -129,6 +178,8 @@
 			children = (
 				56FE1E9EB5F6CFE45BFE292D /* ReviewsListModuleInput.swift */,
 				1C4EEA8237D5A6359F06DDC5 /* ReviewsListPresenter.swift */,
+				B65538EB176DDA8C55496E3B /* ViewModels */,
+				B6553F0E0234FED6771B4192 /* Builders */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -159,6 +210,8 @@
 				B65534414D83A1CF7F212AE7 /* DI */,
 				B6553BA4B56459FC0F7EF568 /* Definitions */,
 				B6553269943AE9FCE6DFD8F2 /* Model */,
+				B6553459A1EAE5B7CA6A8AD0 /* DataSources */,
+				B6553CCE24CFBF78E2267038 /* Helpers */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -167,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				714219F822FEC41600449430 /* Swinject */,
+				B65539F1541E8A4D9DE329FE /* UIKit */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -335,8 +389,17 @@
 			isa = PBXGroup;
 			children = (
 				B655336EAADD42CD3D175019 /* NetworkingAssembly.swift */,
+				B6553AC82B524EFA7A3AB7D4 /* CommonServicesAssembly.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		B65531D629C5BB0DAE6194BE /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				B6553B39E03DEA65A97BF6E9 /* UIView+Convenience.swift */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 		B6553269943AE9FCE6DFD8F2 /* Model */ = {
@@ -348,6 +411,15 @@
 				B65531340A28337B48BEF57F /* TourModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B65532AE6C60483CA1595688 /* AlertController */ = {
+			isa = PBXGroup;
+			children = (
+				B65535ADCAF272530C62646D /* Alerts */,
+				B6553EB83574460E2EDA7BA8 /* Common */,
+			);
+			path = AlertController;
 			sourceTree = "<group>";
 		};
 		B655336AE9071C542DAC9E7E /* NetworkClient */ = {
@@ -367,10 +439,70 @@
 			path = DI;
 			sourceTree = "<group>";
 		};
+		B6553459A1EAE5B7CA6A8AD0 /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				B65533070B19A7BBD5B7AE05 /* ArrayTableViewDataSource.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		B65535ADCAF272530C62646D /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				B655380CF5E83CEBD3321CBE /* Alert.swift */,
+				B65536A8E1561D6362905B00 /* CanPresentAlert.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		B655367661792E88C01EEF2E /* Pagination */ = {
+			isa = PBXGroup;
+			children = (
+				B6553E3502FE2312D9267D77 /* TresholdProvider */,
+				B6553C3A680AE95B12B655F3 /* PaginationState.swift */,
+				B6553E51B350D3C4458EBB58 /* PaginationFacade.swift */,
+				B65539A1F36CF34A1131A194 /* PaginationController.swift */,
+				B6553C2A06483D73E500CCD6 /* PaginationIndicatorPresenters */,
+				B6553914A30347EA0D0084C6 /* PaginatedDataController.swift */,
+			);
+			path = Pagination;
+			sourceTree = "<group>";
+		};
+		B65538EB176DDA8C55496E3B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B6553D44CAFBF9A8A4239A8E /* ReviewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B65539F1541E8A4D9DE329FE /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B6553DC88D75DA684FA3EC8C /* UIImageView */,
+				B65531D629C5BB0DAE6194BE /* UIView */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		B6553A57874B0714741652AB /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				B655357AA7ED7598F722140C /* ReviewListTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
 		B6553BA4B56459FC0F7EF568 /* Definitions */ = {
 			isa = PBXGroup;
 			children = (
 				B6553ED48765A98C035AB6B4 /* JSONDecoderType.swift */,
+				B65532C286558A6DFE101D9D /* PaginatedDataLoadable.swift */,
+				B65536D9A91486CD586D813C /* ModelTransfer.swift */,
+				B6553BD552184B83F1625B3E /* ReusableView.swift */,
+				B6553234A32496EDF8D63E6D /* PaginationObserver.swift */,
+				B655335E448CD9A8E09F8268 /* Observer.swift */,
 			);
 			path = Definitions;
 			sourceTree = "<group>";
@@ -381,6 +513,66 @@
 				B6553B32085E9F6BDA1CA8A1 /* ReviewsListBackendService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		B6553C2A06483D73E500CCD6 /* PaginationIndicatorPresenters */ = {
+			isa = PBXGroup;
+			children = (
+				B655375215BA05479DE4332D /* TableViewPaginationIndicatorPresenter.swift */,
+			);
+			path = PaginationIndicatorPresenters;
+			sourceTree = "<group>";
+		};
+		B6553C2AFEA652B5109E27A2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B655310AFD672CAE632B3FDF /* PaginationThresholdProvider.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B6553CCE24CFBF78E2267038 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B655367661792E88C01EEF2E /* Pagination */,
+				B65532AE6C60483CA1595688 /* AlertController */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B6553DC88D75DA684FA3EC8C /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				B6553EEE417867C063A8CC8E /* UIImageView+ImageURL.swift */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		B6553E3502FE2312D9267D77 /* TresholdProvider */ = {
+			isa = PBXGroup;
+			children = (
+				B6553C2AFEA652B5109E27A2 /* Base */,
+				B655320874611296CB04F21A /* PaginationDefaultThresholdProvider.swift */,
+			);
+			path = TresholdProvider;
+			sourceTree = "<group>";
+		};
+		B6553EB83574460E2EDA7BA8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B6553BC1A7E2E85B8B5CD8B7 /* PresentableAsAlert.swift */,
+				B6553894E73ED23F1C4E2C78 /* UIAlertAction+Convenience.swift */,
+				B655376DAF29747C2973D3DF /* UIAlertController+Convenience.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B6553F0E0234FED6771B4192 /* Builders */ = {
+			isa = PBXGroup;
+			children = (
+				B6553637A4CE9C679D4BBACF /* ReviewsListViewModelsBuilder.swift */,
+			);
+			path = Builders;
 			sourceTree = "<group>";
 		};
 		BA14A6E51723055E1593FFCB /* Frameworks */ = {
@@ -541,6 +733,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-GetYourGuide/Pods-GetYourGuide-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/PHFDelegateChain/PHFDelegateChain.framework",
 				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
 				"${BUILT_PRODUCTS_DIR}/SwinjectStoryboard/SwinjectStoryboard.framework",
 			);
@@ -550,6 +743,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PHFDelegateChain.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwinjectStoryboard.framework",
 			);
@@ -594,6 +788,30 @@
 				B655356A9F52E05E989B14AD /* ReviewModel.swift in Sources */,
 				B655387B5B5493D0071DD004 /* ReviewsListModel.swift in Sources */,
 				B6553155DA2194DBE56F9420 /* TourModel.swift in Sources */,
+				B6553069188228944CF3ED79 /* ReviewListTableViewCell.swift in Sources */,
+				B65535C77504B57D93C0C780 /* PaginatedDataLoadable.swift in Sources */,
+				B6553999AC93F8D98C167918 /* ReviewViewModel.swift in Sources */,
+				B6553B178F008D40185708A4 /* ModelTransfer.swift in Sources */,
+				B65533C2024E1A40F58A27D4 /* ArrayTableViewDataSource.swift in Sources */,
+				B65534525B8D13E362B9BE68 /* ReusableView.swift in Sources */,
+				B655357BDB28AE4524291114 /* UIImageView+ImageURL.swift in Sources */,
+				B65536A22D3BC10CD35DEE4E /* ReviewsListViewModelsBuilder.swift in Sources */,
+				B655321825B2504B122876E8 /* PaginationThresholdProvider.swift in Sources */,
+				B6553DAB04FA5E4272ECCAC3 /* PaginationDefaultThresholdProvider.swift in Sources */,
+				B65538ABB08440998CAD959D /* PaginationState.swift in Sources */,
+				B655383EA415C831CD66CE68 /* PaginationFacade.swift in Sources */,
+				B6553304EE961121CFB44786 /* PaginationController.swift in Sources */,
+				B6553698D8A690A77DF72F61 /* PaginationObserver.swift in Sources */,
+				B6553328D9BB6B63138AF43C /* Alert.swift in Sources */,
+				B6553D82C2A7B6E6A7AD3CC1 /* CanPresentAlert.swift in Sources */,
+				B65539CD04D452C1E7DD69B5 /* PresentableAsAlert.swift in Sources */,
+				B65538B3DE733A48FE8929C7 /* UIAlertAction+Convenience.swift in Sources */,
+				B65534657E0B7766FC42DFDD /* UIAlertController+Convenience.swift in Sources */,
+				B65531514882700FB02B93E2 /* Observer.swift in Sources */,
+				B6553788DE2FFC9CA66B3A6D /* CommonServicesAssembly.swift in Sources */,
+				B65530FECB63DFD5BB5F8F49 /* UIView+Convenience.swift in Sources */,
+				B6553F201A4A8875430DF133 /* TableViewPaginationIndicatorPresenter.swift in Sources */,
+				B6553D61C57E6F908ABD785E /* PaginatedDataController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

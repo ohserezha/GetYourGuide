@@ -8,8 +8,9 @@
 
 import Foundation
 
-protocol ReviewsListInteractorInput: class {
-    var tour: TourModel! { get set }
+protocol ReviewsListInteractorInput: class, PaginatedDataLoadable {
+    var allReviews: [ReviewModel] { get }
+    var lastPageDataModels: [ReviewModel] { get }
 
-    func reloadData()
+    var tour: TourModel! { get set }
 }

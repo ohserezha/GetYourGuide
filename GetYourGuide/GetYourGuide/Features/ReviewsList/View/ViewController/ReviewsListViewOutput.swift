@@ -8,4 +8,5 @@
 
 protocol ReviewsListViewOutput: class {
     func onViewDidLoad()
+    func onLoadNextPage()
 }

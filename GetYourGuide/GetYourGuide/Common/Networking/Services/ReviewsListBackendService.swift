@@ -21,7 +21,16 @@ class ReviewsListBackendServiceImpl: ReviewsListBackendService {
 
     @discardableResult
     func loadReviewsListFor(tour: TourModel, page: Int, completion: @escaping (ReviewsListBackendServiceResult) -> ()) -> NetworkRequest {
-        let request = ReviewsRequest.reviewsList(cityID: tour.city.remoteID, tourID: tour.remoteID, page: page)
+        let request = ReviewsRequest.reviewsList(cityID: tour.city.remoteID,
+                                                 tourID: tour.remoteID,
+                                                 page: page,
+                                                 limit: Constants.defaultLimit)
         return networkClient.performRequest(request, completion: completion)
+    }
+}
+
+private extension ReviewsListBackendServiceImpl {
+    struct Constants {
+        static let defaultLimit = 10
     }
 }

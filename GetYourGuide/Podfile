@@ -8,4 +8,5 @@ target 'GetYourGuide' do
   pod 'SwinjectStoryboard'
   pod 'Alamofire'
   pod 'Kingfisher'
+  pod 'PHFDelegateChain', :git => 'https://github.com/Alterplay/PHFDelegateChain.git'
 end

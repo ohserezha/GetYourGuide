@@ -1,6 +1,7 @@
 PODS:
   - Alamofire (4.8.2)
   - Kingfisher (5.7.0)
+  - PHFDelegateChain (1.0.1)
   - Swinject (2.6.2)
   - SwinjectStoryboard (2.2.0):
     - Swinject (~> 2.6)
@@ -8,6 +9,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - Kingfisher
+  - PHFDelegateChain (from `https://github.com/Alterplay/PHFDelegateChain.git`)
   - Swinject
   - SwinjectStoryboard
 
@@ -18,12 +20,22 @@ SPEC REPOS:
     - Swinject
     - SwinjectStoryboard
 
+EXTERNAL SOURCES:
+  PHFDelegateChain:
+    :git: https://github.com/Alterplay/PHFDelegateChain.git
+
+CHECKOUT OPTIONS:
+  PHFDelegateChain:
+    :commit: f2833f3ec38c1de593823569e806f6efb84b8ce4
+    :git: https://github.com/Alterplay/PHFDelegateChain.git
+
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   Kingfisher: c7d211b54f1f30d8060aadab177d52b4349c825b
+  PHFDelegateChain: be787e5a5a50e4ed8ec1e59ec2d434a5c364ff59
   Swinject: cf7458774b1b00323080a9c67e47a1ee7f9d2af1
   SwinjectStoryboard: 32512ef16c2b0ff5b8f823b23539c4a50f6d3383
 
-PODFILE CHECKSUM: 45ba92baa7b0346ce91e0d8f1cf110b654a7360d
+PODFILE CHECKSUM: 060b73bb3337cad14d68697b7ad00ec21fc67af1
 
 COCOAPODS: 1.5.3

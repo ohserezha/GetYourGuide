@@ -6,6 +6,7 @@
 //  Copyright © 2019 Nickolay Sheika. All rights reserved.
 //
 
-protocol ReviewsListViewInput: class {
-
+protocol ReviewsListViewInput: class, PaginationObserver, CanPresentAlert {
+    func updateWith(reviews: [ReviewViewModel])
+    func appendWith(reviews: [ReviewViewModel])
 }

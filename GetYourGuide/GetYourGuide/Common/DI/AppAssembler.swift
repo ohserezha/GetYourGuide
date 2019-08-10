@@ -14,6 +14,7 @@ final class AppAssembler {
     private class func assemblies() -> [Assembly] {
         return [
             NetworkingAssembly(),
+            CommonServicesAssembly(),
             ReviewsListAssembly()
         ]
     }
