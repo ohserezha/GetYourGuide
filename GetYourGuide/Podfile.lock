@@ -1,7 +1,11 @@
 PODS:
   - Alamofire (4.8.2)
   - Kingfisher (5.7.0)
+  - Nimble (8.0.2)
   - PHFDelegateChain (1.0.1)
+  - SwiftyMock (0.2.3):
+    - SwiftyMock/Core (= 0.2.3)
+  - SwiftyMock/Core (0.2.3)
   - Swinject (2.6.2)
   - SwinjectStoryboard (2.2.0):
     - Swinject (~> 2.6)
@@ -9,7 +13,9 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - Kingfisher
+  - Nimble
   - PHFDelegateChain (from `https://github.com/Alterplay/PHFDelegateChain.git`)
+  - SwiftyMock
   - Swinject
   - SwinjectStoryboard
 
@@ -17,6 +23,8 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - Kingfisher
+    - Nimble
+    - SwiftyMock
     - Swinject
     - SwinjectStoryboard
 
@@ -32,10 +40,12 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   Kingfisher: c7d211b54f1f30d8060aadab177d52b4349c825b
+  Nimble: 622629381bda1dd5678162f21f1368cec7cbba60
   PHFDelegateChain: be787e5a5a50e4ed8ec1e59ec2d434a5c364ff59
+  SwiftyMock: 26d649bbf320ede90196b40129552ef719863043
   Swinject: cf7458774b1b00323080a9c67e47a1ee7f9d2af1
   SwinjectStoryboard: 32512ef16c2b0ff5b8f823b23539c4a50f6d3383
 
-PODFILE CHECKSUM: 060b73bb3337cad14d68697b7ad00ec21fc67af1
+PODFILE CHECKSUM: 327da32621caab84fd71ab037f5e4ae2522a531d
 
 COCOAPODS: 1.5.3

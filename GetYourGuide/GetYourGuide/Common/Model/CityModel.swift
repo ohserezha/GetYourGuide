@@ -5,6 +5,6 @@
 
 import Foundation
 
-struct CityModel {
+struct CityModel: Equatable {
     let remoteID: String
 }

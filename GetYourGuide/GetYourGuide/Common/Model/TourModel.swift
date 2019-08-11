@@ -5,7 +5,7 @@
 
 import Foundation
 
-struct TourModel {
+struct TourModel: Equatable {
     let remoteID: String
 
     let city: CityModel

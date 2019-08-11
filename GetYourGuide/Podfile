@@ -10,3 +10,9 @@ target 'GetYourGuide' do
   pod 'Kingfisher'
   pod 'PHFDelegateChain', :git => 'https://github.com/Alterplay/PHFDelegateChain.git'
 end
+
+target 'GetYourGuideTests' do
+  pod 'Swinject'
+  pod 'Nimble'
+  pod 'SwiftyMock'
+end
